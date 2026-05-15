@@ -1,8 +1,7 @@
-<img src="src/icon.ico" alt="" width="96" align="left" />
-
-# Xbox Startup Enabler
-
-<br clear="left" />
+<h1>
+  <img src="src/icon.ico" alt="" height="40" align="absmiddle" />
+  Xbox Startup Enabler
+</h1>
 
 ![Xbox Startup Enabler window](docs/screenshot.png)
 
