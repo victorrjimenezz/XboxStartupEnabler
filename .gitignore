@@ -1,0 +1,55 @@
+# Build output
+bin/
+obj/
+dist/
+out/
+publish/
+release/
+*.dll.pdb
+*.pdb
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.lscache
+
+# Local backups of system DLLs — DO NOT distribute Microsoft binaries
+backups/
+
+# Reverse-engineering scratchpad — contains copies of system DLLs
+research/
+
+# Throwaway diagnostic files used during development
+cli-out.txt
+cli-output.txt
+*.log
+*.tmp
+
+# Loaded-DLL stash files left by the patcher (Apply renames out-of-the-way copies)
+*.old-*
+*.dll.new
+
+# Single-file publish artifacts
+*.exe
+!.github/**/*.exe
+
+# OS junk
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.lnk
+.DS_Store
+
+# NuGet
+*.nupkg
+*.nuspec
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
